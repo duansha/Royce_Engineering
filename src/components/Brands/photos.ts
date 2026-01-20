@@ -14,63 +14,78 @@ function imageLink(
 
 const photos = [
   {
+    title: "2025",
     src: "1_2025scioly_ev2.2400x3600.jpg",
     alt: "2025 Science Olympiad - Electrical Vehicle V2",
   },
   {
+    title: "2025",
     src: "1_2025scioly_ev2.2400x2400.png",
     alt: "2025 Science Olympiad - Electrical Vehicle V2",
   },
 
   {
+    title: "2025",
     src: "1_2025scioly_ev.2400x3200.jpg",
     alt: "2025 Science Olympiad - Electrical Vehicle",
   },
   {
+    title: "2025",
     src: "1_2025scioly_ev.2400x3100.jpg",
     alt: "2025 Science Olympiad - Electrical Vehicle",
   },
   {
+    title: "2025",
     src: "1_2025scioly_robot.2400x2100.png",
     alt: "2025 Science Olympiad - Robot tour",
   },
   {
+    title: "2025",
     src: "1_2025scioly_robot.2400x2000.png",
     alt: "2025 Science Olympiad - Robot tour",
   },
   {
+    title: "2024",
     src: "2024scioly_vehicle.2400x1735.png",
     alt: "2024 Science Olympiad - Vehicle - State Final",
   },
   {
+    title: "2024",
     src: "1_2024scioly_flight1.2400x1360.png",
     alt: "2024 Science Olympiad - Flight -State Final - UIUC Armory",
   },
   {
+    title: "2024",
     src: "1_2024scioly_flight2.2400x1360.png",
     alt: "2024 Science Olympiad - Flight -State Final - UIUC Armory 4:17",
   },
   {
+    title: "2025",
     src: "2023summer_tank.2400x3040.png",
     alt: "2025 Science Olympiad - Engineering CAD",
   },
   {
+    title: "2025",
     src: "2024summer_irremote_dcmotor.2400x2152.jpg",
     alt: "2025 Science Olympiad - Engineering CAD - product1",
   },
   {
+    title: "2025",
     src: "2024summer_joystick_dcmotor.2400x1300.jpg",
     alt: "2025 Science Olympiad - Engineering CAD - product2",
   },
   {
+    title: "2025",
     src: "2024summer_lcd_sensor.2400x2038.jpg",
     alt: "2025 Science Olympiad - Engineering CAD - product3",
   },
   {
+    title: "2025",
     src: "2023tryout.2400x1092.png",
     alt: "2025 Science Olympiad - Engineering CAD - product4",
   },
   {
+    title: "2020",
     src: "transformer.2400x2328.png",
     alt: "2020 Half Day School Talent Show - Optimus Prime",
   },

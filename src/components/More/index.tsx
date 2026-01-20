@@ -29,7 +29,7 @@ function renderNextImage(
 ) {
   // Pick whatever caption you want:
   const caption =
-    ("caption" in photo && (photo as any).caption) || title || alt;
+    ("caption" in photo && (photo as any).caption) || alt || title;
 
   return (
     <div style={{ width: "100%" }}>
@@ -50,6 +50,11 @@ function renderNextImage(
           style={{ objectFit: "cover" }} // optional
           placeholder={"blurDataURL" in photo ? "blur" : undefined}
         />
+        <div className="absolute top-3 left-3">
+          <span className="inline-flex items-center rounded-full bg-white/80 px-2 py-0.5 text-xs font-medium text-gray-900 dark:bg-black/60 dark:text-gray-100">
+            {title}
+          </span>
+        </div>
       </div>
 
       {/* Caption sits below in normal flow */}
