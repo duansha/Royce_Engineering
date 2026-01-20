@@ -146,8 +146,9 @@ const Brands = () => {
                       <div className="mt-4 h-px bg-gray-200 dark:bg-gray-800" />
                       <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">
                         <span className="font-medium">Note:</span> This timeline
-                        reflects a multi-year progression of independent design,
-                        prototyping, and iteration.
+                        reflects a multi-year progression of design,
+                        prototyping, and iteration. I want to learn how research
+                        formalizes testing and iteration beyond competitions…
                       </div>
                     </div>
                   </section>

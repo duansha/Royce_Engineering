@@ -16,73 +16,83 @@ const photos = [
   {
     title: "2025",
     src: "1_2025scioly_ev2.2400x3600.jpg",
-    alt: "2025 Science Olympiad - Electrical Vehicle V2",
+    alt: "Science Olympiad - Electrical Vehicle V2",
   },
   {
     title: "2025",
     src: "1_2025scioly_ev2.2400x2400.png",
-    alt: "2025 Science Olympiad - Electrical Vehicle V2",
+    alt: "Science Olympiad - Electrical Vehicle V2",
   },
 
   {
     title: "2025",
     src: "1_2025scioly_ev.2400x3200.jpg",
-    alt: "2025 Science Olympiad - Electrical Vehicle",
+    alt: "Science Olympiad - Electrical Vehicle",
   },
   {
     title: "2025",
     src: "1_2025scioly_ev.2400x3100.jpg",
-    alt: "2025 Science Olympiad - Electrical Vehicle",
+    alt: "Science Olympiad - Electrical Vehicle",
   },
   {
     title: "2025",
     src: "1_2025scioly_robot.2400x2100.png",
-    alt: "2025 Science Olympiad - Robot tour",
+    alt: "Science Olympiad - Robot tour",
   },
   {
     title: "2025",
     src: "1_2025scioly_robot.2400x2000.png",
-    alt: "2025 Science Olympiad - Robot tour",
+    alt: "Science Olympiad - Robot tour",
   },
   {
     title: "2024",
     src: "2024scioly_vehicle.2400x1735.png",
-    alt: "2024 Science Olympiad - Vehicle - State Final",
+    alt: "Science Olympiad - Vehicle - State Final",
   },
   {
     title: "2024",
     src: "1_2024scioly_flight1.2400x1360.png",
-    alt: "2024 Science Olympiad - Flight -State Final - UIUC Armory",
+    alt: "Science Olympiad - Flight -State Final - UIUC Armory",
   },
   {
     title: "2024",
     src: "1_2024scioly_flight2.2400x1360.png",
-    alt: "2024 Science Olympiad - Flight -State Final - UIUC Armory 4:17",
+    alt: "Science Olympiad - Flight -State Final - UIUC Armory 4:17",
   },
   {
     title: "2025",
     src: "2023summer_tank.2400x3040.png",
-    alt: "2025 Science Olympiad - Engineering CAD",
+    alt: "Science Olympiad - Engineering CAD",
   },
   {
     title: "2025",
     src: "2024summer_irremote_dcmotor.2400x2152.jpg",
-    alt: "2025 Science Olympiad - Engineering CAD - product1",
+    alt: "Science Olympiad - Engineering CAD - product1",
   },
   {
     title: "2025",
     src: "2024summer_joystick_dcmotor.2400x1300.jpg",
-    alt: "2025 Science Olympiad - Engineering CAD - product2",
+    alt: "Science Olympiad - Engineering CAD - product2",
   },
   {
     title: "2025",
     src: "2024summer_lcd_sensor.2400x2038.jpg",
-    alt: "2025 Science Olympiad - Engineering CAD - product3",
+    alt: "Science Olympiad - Engineering CAD - product3",
   },
   {
     title: "2025",
     src: "2023tryout.2400x1092.png",
-    alt: "2025 Science Olympiad - Engineering CAD - product4",
+    alt: "Science Olympiad - Engineering CAD - product4",
+  },
+  {
+    title: "2023",
+    src: "2023summer_tank.2400x3040.png",
+    alt: "Personal Projects - Tank with Physical Simulation",
+  },
+  {
+    title: "2022",
+    src: "2022tryout.2400x1600.png",
+    alt: "Daniel Wright Science Olympiad tryout - Stellated Cuboctrahedron",
   },
   {
     title: "2020",
