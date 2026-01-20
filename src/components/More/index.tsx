@@ -70,6 +70,13 @@ function renderNextImage(
 
 const Brands = () => {
   const [index, setIndex] = useState(-1);
+  const timeline = [
+    { year: "5th Grade", label: "Started 3D modeling" },
+    { year: "6th–7th Grade", label: "Early competition prototypes" },
+    { year: "8th Grade", label: "Iterative design + performance testing" },
+    { year: "9th Grade", label: "Optimized builds for competition" },
+    { year: "10th Grade", label: "Full-cycle design & fabrication" },
+  ];
 
   return (
     <section className="pt-16">
@@ -103,6 +110,42 @@ const Brands = () => {
                     // enable optional lightbox plugins
                     plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
                   />
+
+                  <section className="mt-10 rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm md:p-6 dark:border-gray-800 dark:bg-black/70">
+                    <div className="mx-auto max-w-6xl">
+                      <div className="items-left flex justify-between gap-4">
+                        <div>
+                          <h2 className="text-lg font-semibold text-gray-900 md:text-xl dark:text-gray-100">
+                            Engineering Timeline
+                          </h2>
+                          <p className="text-sm text-gray-600 md:text-base dark:text-gray-300">
+                            Progression of design complexity and independent
+                            building.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="mt-5 grid grid-cols-1 gap-4 md:grid-cols-5">
+                        {timeline.map((item, idx) => (
+                          <div key={idx} className="flex flex-col items-start">
+                            <div className="text-sm font-medium text-gray-900 md:text-base dark:text-gray-100">
+                              {item.year}
+                            </div>
+                            <div className="text-xs text-gray-600 md:text-sm dark:text-gray-300">
+                              {item.label}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+
+                      <div className="mt-4 h-px bg-gray-200 dark:bg-gray-800" />
+                      <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">
+                        <span className="font-medium">Note:</span> This timeline
+                        reflects a multi-year progression of independent design,
+                        prototyping, and iteration.
+                      </div>
+                    </div>
+                  </section>
                 </div>
               </div>
             </div>
