@@ -78,7 +78,7 @@ const Brands = () => {
           <div className="dark:bg-gray-dark bg-gray-250 relative flex min-h-screen items-center justify-center overflow-hidden bg-top bg-no-repeat text-gray-900 dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
             <div className="max-w-8xl mx-auto px-4">
               <div className="grid gap-12 lg:grid-cols-1">
-                <div className="mt-5 mb-5 ml-5">
+                <div className="mt-5 mb-25 ml-5">
                   <div className="invisible mt-4 text-[0.15rem] lg:mt-0">
                     mmdmmmd mmdmmmd{" "}
                   </div>

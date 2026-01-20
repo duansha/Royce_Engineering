@@ -72,7 +72,7 @@ const photos = [
   },
   {
     src: "transformer.2400x2328.png",
-    alt: "2020 Talent Show - Optimus Prime",
+    alt: "2020 Half Day School Talent Show - Optimus Prime",
   },
 ].map(({ src, ...rest }) => {
   const matcher = src.match(/^(.*)\.(\d+)x(\d+)\.(.*)$/)!;

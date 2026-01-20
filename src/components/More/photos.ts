@@ -27,11 +27,15 @@ const photos = [
   },
   {
     src: "2023scioly_flight.2400x1950.png",
-    alt: "2023,2024 Science Olympiad - Flight",
+    alt: "2024,2023 Science Olympiad - Flight",
   },
   {
     src: "2022scioly_flight.2400x2490.png",
     alt: "2022 Science Olympiad - Electric Wright Stuff",
+  },
+  {
+    src: "2024scioly_windpower.2400x2150.png",
+    alt: "2024 Science Olympiad - Wind Power - Blades and Airfoil Sanding Block",
   },
   {
     src: "2024scioly_towerjig.2400x1350.png",
@@ -83,7 +87,7 @@ const photos = [
   },
   {
     src: "transformer.2400x2328.png",
-    alt: "2020 Talent Show - Optimus Prime",
+    alt: "2020 Half Day School Talent Show - Optimus Prime",
   },
 ].map(({ src, ...rest }) => {
   const matcher = src.match(/^(.*)\.(\d+)x(\d+)\.(.*)$/)!;
