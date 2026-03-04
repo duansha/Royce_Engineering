@@ -22,6 +22,10 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 import photos from "./photos";
+//import { onshapeItems } from "@/lib/onshape";
+//import { OnshapeGallery } from "@/app/onshape/OnshapeGallery";
+import { ModelGallery } from "../Model/ModelGallery";
+import { modelItems } from "@/lib/models";
 
 function renderNextImage(
   { alt = "", title, sizes }: RenderImageProps,
@@ -95,7 +99,17 @@ const Brands = () => {
                     mmdmmmd mmdmmmd{" "}
                   </div>
                   <span className="pr-8 dark:text-white/90">
-                    Selected Projects
+                    Interactive OnShape CAD (click on each image to rotate and
+                    zoom)
+                  </span>
+                  {/*<div>
+                    <OnshapeGallery items={onshapeItems} />
+                  </div>*/}
+                  <div className="mb-4">
+                    <ModelGallery items={modelItems} />
+                  </div>
+                  <span className="pr-8 dark:text-white/90">
+                    Selected Project Gallery
                   </span>
                   <Link
                     href="/more"
@@ -117,7 +131,6 @@ const Brands = () => {
                     // enable optional lightbox plugins
                     plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
                   />
-
                   <section className="mt-10 rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm md:p-6 dark:border-gray-800 dark:bg-black/70">
                     <div className="mx-auto max-w-6xl">
                       <div className="items-left flex justify-between gap-4">
@@ -147,11 +160,17 @@ const Brands = () => {
 
                       <div className="mt-4 h-px bg-gray-200 dark:bg-gray-800" />
                       <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">
-                        <span className="font-medium">Note:</span> This timeline
-                        reflects a multi-year progression of design,
-                        prototyping, and iteration. I want to learn how research
-                        formalizes testing and iteration beyond competitions…
+                        This timeline reflects a multi-year progression of
+                        design, prototyping, and iteration. I want to learn how
+                        research formalizes testing and iteration beyond
+                        competitions…
                       </div>
+                      {/*<div className="mt-4 h-px bg-gray-200 dark:bg-gray-800" />
+                      <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">
+                        Source code for embedded control and supporting tools is
+                        available here: https://github.com/… Email:
+                        royce2engineering@gmail.com Phone: 224-xxx-xxxx
+                      </div>*/}
                     </div>
                   </section>
                 </div>

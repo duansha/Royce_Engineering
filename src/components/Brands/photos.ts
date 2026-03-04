@@ -14,6 +14,11 @@ function imageLink(
 
 const photos = [
   {
+    title: "2026",
+    src: "1_2026scioly_ev.2400x2400.png",
+    alt: "Science Olympiad - Electrical Vehicle V3.2",
+  },
+  {
     title: "2025",
     src: "1_2025scioly_ev2.2400x3600.jpg",
     alt: "Science Olympiad - Electrical Vehicle V2",
@@ -27,12 +32,12 @@ const photos = [
   {
     title: "2025",
     src: "1_2025scioly_ev.2400x3200.jpg",
-    alt: "Science Olympiad - Electrical Vehicle",
+    alt: "Science Olympiad - Electrical Vehicle V1",
   },
   {
     title: "2025",
     src: "1_2025scioly_ev.2400x3100.jpg",
-    alt: "Science Olympiad - Electrical Vehicle",
+    alt: "Science Olympiad - Electrical Vehicle V1",
   },
   {
     title: "2025",
@@ -58,31 +63,6 @@ const photos = [
     title: "2024",
     src: "1_2024scioly_flight2.2400x1360.png",
     alt: "Science Olympiad - Flight -State Final - UIUC Armory 4:17",
-  },
-  {
-    title: "2025",
-    src: "2023summer_tank.2400x3040.png",
-    alt: "Science Olympiad - Engineering CAD",
-  },
-  {
-    title: "2025",
-    src: "2024summer_irremote_dcmotor.2400x2152.jpg",
-    alt: "Science Olympiad - Engineering CAD - product1",
-  },
-  {
-    title: "2025",
-    src: "2024summer_joystick_dcmotor.2400x1300.jpg",
-    alt: "Science Olympiad - Engineering CAD - product2",
-  },
-  {
-    title: "2025",
-    src: "2024summer_lcd_sensor.2400x2038.jpg",
-    alt: "Science Olympiad - Engineering CAD - product3",
-  },
-  {
-    title: "2025",
-    src: "2023tryout.2400x1092.png",
-    alt: "Science Olympiad - Engineering CAD - product4",
   },
   {
     title: "2023",
