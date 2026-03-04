@@ -45,7 +45,7 @@ const photos = [
   },
   {
     title: "2025",
-    src: "2024scioly_winder.2400x1900.jpg",
+    src: "2024scioly_winder.2400x1900.png",
     alt: "Science Olympiad - Built Rubber Motor Winder for Helicopter Team",
   },
   {

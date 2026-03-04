@@ -109,7 +109,7 @@ const Brands = () => {
                     <ModelGallery items={modelItems} />
                   </div>
                   <span className="pr-8 dark:text-white/90">
-                    Selected Project Gallery
+                    Selected Projects
                   </span>
                   <Link
                     href="/more"
