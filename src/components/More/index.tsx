@@ -94,7 +94,9 @@ const Brands = () => {
                   <div className="invisible mt-4 text-[0.15rem] lg:mt-0">
                     mmdmmmd mmdmmmd{" "}
                   </div>
-                  <span className="pr-8 dark:text-white/90">More Projects</span>
+                  <span className="pr-8 dark:text-white/90">
+                    <b>More Projects</b>
+                  </span>
                   <Link
                     href="/"
                     className="text-gray-500 hover:text-gray-900 dark:text-white/70 dark:hover:text-white"
@@ -144,12 +146,76 @@ const Brands = () => {
                       </div>
 
                       <div className="mt-4 h-px bg-gray-200 dark:bg-gray-800" />
+
+                      <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">
+                        <div className="flex items-center">
+                          <span className="hidden lg:block">
+                            Source code for embedded control and supporting
+                            tools is available here: &nbsp;&nbsp;&nbsp;&nbsp;
+                          </span>
+                          <svg
+                            width="24"
+                            height="24"
+                            fill="#000000"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M22,12.247a10,10,0,0,1-6.833,9.488c-.507.1-.687-.214-.687-.481,0-.328.012-1.407.012-2.743a2.386,2.386,0,0,0-.679-1.852c2.228-.248,4.566-1.093,4.566-4.935a3.859,3.859,0,0,0-1.028-2.683,3.591,3.591,0,0,0-.1-2.647s-.838-.269-2.747,1.025a9.495,9.495,0,0,0-5.007,0c-1.91-1.294-2.75-1.025-2.75-1.025a3.6,3.6,0,0,0-.1,2.647A3.864,3.864,0,0,0,5.62,11.724c0,3.832,2.334,4.69,4.555,4.942A2.137,2.137,0,0,0,9.54,18a2.128,2.128,0,0,1-2.91-.831A2.1,2.1,0,0,0,5.1,16.142s-.977-.013-.069.608A2.646,2.646,0,0,1,6.14,18.213s.586,1.944,3.368,1.34c.005.835.014,1.463.014,1.7,0,.265-.183.574-.683.482A10,10,0,1,1,22,12.247Z" />
+                          </svg>
+                          <a
+                            href="https://github.com/royce2engineering"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="dark:text-body-color-dark text-footer transition-colors hover:text-blue-500 dark:hover:text-gray-300"
+                          >
+                            https://github.com/royce2engineering
+                          </a>
+                        </div>
+                      </div>
+
                       <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">
                         This timeline reflects a multi-year progression of
                         design, prototyping, and iteration. I want to learn how
                         research formalizes testing and iteration beyond
                         competitions…
+                        <br />
+                        <br />
+                        <div className="flex items-center">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="lucide lucide-mail mr-3 h-4 w-4 text-gray-500"
+                          >
+                            <rect
+                              width="20"
+                              height="16"
+                              x="2"
+                              y="4"
+                              rx="2"
+                            ></rect>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                          </svg>
+                          <a
+                            href="mailto:royce2engineering@gmail.com"
+                            className="dark:text-body-color-dark text-footer transition-colors hover:text-blue-500 dark:hover:text-gray-300"
+                          >
+                            royce2engineering@gmail.com
+                          </a>
+                        </div>
                       </div>
+                      {/*<div className="mt-4 h-px bg-gray-200 dark:bg-gray-800" />
+                      <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">
+                        Source code for embedded control and supporting tools is
+                        available here: https://github.com/… Email:
+                        royce2engineering@gmail.com Phone: 224-xxx-xxxx
+                      </div>*/}
                     </div>
                   </section>
                 </div>

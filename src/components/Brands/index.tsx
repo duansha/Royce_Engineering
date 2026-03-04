@@ -99,8 +99,8 @@ const Brands = () => {
                     mmdmmmd mmdmmmd{" "}
                   </div>
                   <span className="pr-8 dark:text-white/90">
-                    Interactive OnShape CAD (click on each image to rotate and
-                    zoom)
+                    <b>Interactive OnShape CAD</b> (click on each image to
+                    rotate and zoom)
                   </span>
                   {/*<div>
                     <OnshapeGallery items={onshapeItems} />
@@ -109,7 +109,7 @@ const Brands = () => {
                     <ModelGallery items={modelItems} />
                   </div>
                   <span className="pr-8 dark:text-white/90">
-                    Selected Projects
+                    <b>Selected Projects</b>
                   </span>
                   <Link
                     href="/more"
@@ -131,6 +131,48 @@ const Brands = () => {
                     // enable optional lightbox plugins
                     plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
                   />
+
+                  <div className="mt-4 flex items-center text-xs text-gray-500 md:text-sm dark:text-gray-300">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 -7 48 48"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>Youtube-color</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g
+                        id="Icons"
+                        stroke="none"
+                        strokeWidth="1"
+                        fill="none"
+                        fillRule="evenodd"
+                      >
+                        <g
+                          id="Color-"
+                          transform="translate(-200.000000, -368.000000)"
+                          fill="#CE1312"
+                        >
+                          <path
+                            d="M219.044,391.269916 L219.0425,377.687742 L232.0115,384.502244 L219.044,391.269916 Z M247.52,375.334163 C247.52,375.334163 247.0505,372.003199 245.612,370.536366 C243.7865,368.610299 241.7405,368.601235 240.803,368.489448 C234.086,368 224.0105,368 224.0105,368 L223.9895,368 C223.9895,368 213.914,368 207.197,368.489448 C206.258,368.601235 204.2135,368.610299 202.3865,370.536366 C200.948,372.003199 200.48,375.334163 200.48,375.334163 C200.48,375.334163 200,379.246723 200,383.157773 L200,386.82561 C200,390.73817 200.48,394.64922 200.48,394.64922 C200.48,394.64922 200.948,397.980184 202.3865,399.447016 C204.2135,401.373084 206.612,401.312658 207.68,401.513574 C211.52,401.885191 224,402 224,402 C224,402 234.086,401.984894 240.803,401.495446 C241.7405,401.382148 243.7865,401.373084 245.612,399.447016 C247.0505,397.980184 247.52,394.64922 247.52,394.64922 C247.52,394.64922 248,390.73817 248,386.82561 L248,383.157773 C248,379.246723 247.52,375.334163 247.52,375.334163 L247.52,375.334163 Z"
+                            id="Youtube"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+                    &nbsp;
+                    <a
+                      href="https://www.youtube.com/watch?v=u8nmeii499w"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="dark:text-body-color-dark text-footer transition-colors hover:text-blue-500 dark:hover:text-gray-300"
+                    >
+                      Flight at UIUC Armory - State Final 2024
+                    </a>
+                  </div>
+
                   <section className="mt-10 rounded-2xl border border-gray-200 bg-white/80 p-4 shadow-sm md:p-6 dark:border-gray-800 dark:bg-black/70">
                     <div className="mx-auto max-w-6xl">
                       <div className="items-left flex justify-between gap-4">
@@ -159,11 +201,70 @@ const Brands = () => {
                       </div>
 
                       <div className="mt-4 h-px bg-gray-200 dark:bg-gray-800" />
+
+                      <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">
+                        <div className="flex items-center">
+                          <span className="hidden lg:block">
+                            Source code for embedded control and supporting
+                            tools is available here: &nbsp;&nbsp;&nbsp;&nbsp;
+                          </span>
+                          <svg
+                            width="24"
+                            height="24"
+                            fill="#000000"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M22,12.247a10,10,0,0,1-6.833,9.488c-.507.1-.687-.214-.687-.481,0-.328.012-1.407.012-2.743a2.386,2.386,0,0,0-.679-1.852c2.228-.248,4.566-1.093,4.566-4.935a3.859,3.859,0,0,0-1.028-2.683,3.591,3.591,0,0,0-.1-2.647s-.838-.269-2.747,1.025a9.495,9.495,0,0,0-5.007,0c-1.91-1.294-2.75-1.025-2.75-1.025a3.6,3.6,0,0,0-.1,2.647A3.864,3.864,0,0,0,5.62,11.724c0,3.832,2.334,4.69,4.555,4.942A2.137,2.137,0,0,0,9.54,18a2.128,2.128,0,0,1-2.91-.831A2.1,2.1,0,0,0,5.1,16.142s-.977-.013-.069.608A2.646,2.646,0,0,1,6.14,18.213s.586,1.944,3.368,1.34c.005.835.014,1.463.014,1.7,0,.265-.183.574-.683.482A10,10,0,1,1,22,12.247Z" />
+                          </svg>
+                          &nbsp;
+                          <a
+                            href="https://github.com/royce2engineering"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="dark:text-body-color-dark text-footer transition-colors hover:text-blue-500 dark:hover:text-gray-300"
+                          >
+                            https://github.com/royce2engineering
+                          </a>
+                        </div>
+                      </div>
+
                       <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">
                         This timeline reflects a multi-year progression of
                         design, prototyping, and iteration. I want to learn how
                         research formalizes testing and iteration beyond
                         competitions…
+                        <br />
+                        <br />
+                        <div className="flex items-center">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="lucide lucide-mail mr-3 h-4 w-4 text-gray-500"
+                          >
+                            <rect
+                              width="20"
+                              height="16"
+                              x="2"
+                              y="4"
+                              rx="2"
+                            ></rect>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                          </svg>
+                          <a
+                            href="mailto:royce2engineering@gmail.com"
+                            className="dark:text-body-color-dark text-footer transition-colors hover:text-blue-500 dark:hover:text-gray-300"
+                          >
+                            royce2engineering@gmail.com
+                          </a>
+                        </div>
                       </div>
                       {/*<div className="mt-4 h-px bg-gray-200 dark:bg-gray-800" />
                       <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">

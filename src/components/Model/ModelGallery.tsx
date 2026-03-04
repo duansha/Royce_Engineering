@@ -54,7 +54,7 @@ export function ModelGallery({ items }: { items: ModelItem[] }) {
                 className="object-cover"
               />
             </div>
-            <div className="mt-2 line-clamp-1 text-sm font-medium">
+            <div className="mt-2 line-clamp-1 text-sm font-medium dark:text-white">
               {item.title}
             </div>
           </button>
