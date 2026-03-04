@@ -7,8 +7,9 @@ import { Suspense, useMemo, useState } from "react";
 
 type Props = { glbUrl: string };
 
-export default function ModelViewer({ glbUrl }: { glbUrl: string }) {
+export default function ModelViewer({ glbUrl }: Props) {
   console.log("ModelViewer glbUrl =", glbUrl, "type:", typeof glbUrl);
+
   if (typeof glbUrl !== "string" || glbUrl.length === 0) {
     return (
       <div className="flex h-full w-full items-center justify-center text-sm">
@@ -16,13 +17,15 @@ export default function ModelViewer({ glbUrl }: { glbUrl: string }) {
       </div>
     );
   }
+
   return (
     <Canvas
       camera={{ position: [2.5, 1.5, 2.5], fov: 45 }}
       gl={{ antialias: true, preserveDrawingBuffer: false }}
       onCreated={({ gl }) => {
         // helps sharpness on high DPI; tweak if perf issues
-        gl.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        const dpr = typeof window !== "undefined" ? window.devicePixelRatio : 1;
+        gl.setPixelRatio(Math.min(dpr, 2));
       }}
     >
       <Suspense fallback={null}>
@@ -44,8 +47,20 @@ export default function ModelViewer({ glbUrl }: { glbUrl: string }) {
   );
 }
 
+/**
+ * Wrapper component:
+ * This ensures hooks in the loaded component are never called conditionally.
+ */
 function SelectableModel({ glbUrl }: { glbUrl: string }) {
   if (typeof glbUrl !== "string" || glbUrl.length === 0) return null;
+  return <SelectableModelLoaded glbUrl={glbUrl} />;
+}
+
+/**
+ * Loaded component:
+ * All hooks are called unconditionally within this component.
+ */
+function SelectableModelLoaded({ glbUrl }: { glbUrl: string }) {
   const { scene } = useGLTF(glbUrl);
 
   // Ensure each mesh can be raycasted and has unique material instances if needed
@@ -96,7 +111,7 @@ function SelectableModel({ glbUrl }: { glbUrl: string }) {
       <primitive object={prepared} />
 
       {/* Render selection overlay (highlight + edges) */}
-      {/* <SelectionOverlay root={prepared} selectedUuid={selectedUuid} />  comment out since it causes error*/}
+      {/* <SelectionOverlay root={prepared} selectedUuid={selectedUuid} /> */}
     </group>
   );
 }
@@ -143,6 +158,9 @@ function SelectionOverlay({
     </group>
   );
 }
+
+// Optional: prefetch/cache GLTFs if you want
+// useGLTF.preload("/path/to/model.glb");
 
 // Important for drei GLTF caching, cause "Cannot read properties of undefined (reading 'length')", comment out
 //useGLTF.preload("/models/ev-chassis.glb");
