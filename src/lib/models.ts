@@ -9,13 +9,13 @@ export type ModelItem = {
 export const modelItems: ModelItem[] = [
   {
     id: "ev-chassis-slim",
-    title: "Electric Vehicle V3.2 - Chassis (Slim Version)",
+    title: "EV V3.2 - Chassis (Slim Version)",
     thumbSrc: "/models/EV32.png",
     glbUrl: "/models/Slim.glb",
   },
   {
     id: "ev-chassis",
-    title: "Electric Vehicle V3.1 - Chassis",
+    title: "EV V3.1 - Chassis",
     thumbSrc: "/models/EV.png",
     glbUrl: "/models/EV.glb",
   },
@@ -27,14 +27,20 @@ export const modelItems: ModelItem[] = [
   },
   {
     id: "chainaxe",
-    title: "Engineering CAD - Chainaxe",
+    title: "Chainaxe - Engineering CAD",
     thumbSrc: "/models/Chainaxe.png",
     glbUrl: "/models/Chainaxe.glb",
   },
   {
     id: "pc",
-    title: "Engineering CAD - Pneumatic Cylinder",
+    title: "Pneumatic Cylinder - Engineering CAD",
     thumbSrc: "/models/PC.png",
     glbUrl: "/models/PC.glb",
+  },
+  {
+    id: "pc2",
+    title: "PileBunker - Engineering CAD",
+    thumbSrc: "/models/PileBunker.png",
+    glbUrl: "/models/Bunker-optimized.glb",
   },
 ];

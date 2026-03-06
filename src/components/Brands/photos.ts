@@ -16,28 +16,28 @@ const photos = [
   {
     title: "2026",
     src: "1_2026scioly_ev.2400x2400.png",
-    alt: "Science Olympiad - Electrical Vehicle V3.2",
+    alt: "Science Olympiad - EV V3.2",
   },
   {
     title: "2025",
     src: "1_2025scioly_ev2.2400x3600.jpg",
-    alt: "Science Olympiad - Electrical Vehicle V2",
+    alt: "Science Olympiad - EV V2",
   },
   {
     title: "2025",
     src: "1_2025scioly_ev2.2400x2400.png",
-    alt: "Science Olympiad - Electrical Vehicle V2",
+    alt: "Science Olympiad - EV V2",
   },
 
   {
     title: "2025",
     src: "1_2025scioly_ev.2400x3200.jpg",
-    alt: "Science Olympiad - Electrical Vehicle V1",
+    alt: "Science Olympiad - EV V1",
   },
   {
     title: "2025",
     src: "1_2025scioly_ev.2400x3100.jpg",
-    alt: "Science Olympiad - Electrical Vehicle V1",
+    alt: "Science Olympiad - EV V1",
   },
   {
     title: "2025",

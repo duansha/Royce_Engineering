@@ -96,7 +96,7 @@ const Brands = () => {
               <div className="grid gap-12 lg:grid-cols-1">
                 <div className="mt-5 mb-25 ml-5">
                   <div className="invisible mt-4 text-[0.15rem] lg:mt-0">
-                    mmdmmmd mmdmmmd{" "}
+                    placholder placeholder{" "}
                   </div>
                   <span className="pr-8 dark:text-white/90">
                     <b>Interactive OnShape CAD</b> (click on each image to

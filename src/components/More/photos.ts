@@ -44,6 +44,11 @@ const photos = [
     alt: "Science Olympiad - Wind Power - Blades and Airfoil Sanding Block",
   },
   {
+    title: "",
+    src: "CNC.2400x3100.jpg",
+    alt: "Home Engineering Lab",
+  },
+  {
     title: "2025",
     src: "2024scioly_winder.2400x1900.png",
     alt: "Science Olympiad - Built Rubber Motor Winder for Helicopter Team",
