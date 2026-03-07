@@ -148,7 +148,7 @@ const Brands = () => {
                       <div className="mt-4 h-px bg-gray-200 dark:bg-gray-800" />
 
                       <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">
-                        <div className="flex items-center">
+                        {/*<div className="flex items-center">
                           <span className="hidden lg:block">
                             Source code for embedded control and supporting
                             tools is available here: &nbsp;&nbsp;&nbsp;&nbsp;
@@ -170,7 +170,7 @@ const Brands = () => {
                           >
                             https://github.com/royce2engineering
                           </a>
-                        </div>
+                        </div>*/}
                       </div>
 
                       <div className="mt-3 text-xs text-gray-500 md:text-sm dark:text-gray-400">

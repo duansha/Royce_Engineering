@@ -32,15 +32,15 @@ export const modelItems: ModelItem[] = [
     glbUrl: "/models/Chainaxe.glb",
   },
   {
-    id: "pc",
-    title: "Pneumatic Cylinder - Engineering CAD",
-    thumbSrc: "/models/PC.png",
-    glbUrl: "/models/PC.glb",
-  },
-  {
     id: "pc2",
     title: "PileBunker - Engineering CAD",
     thumbSrc: "/models/PileBunker.png",
     glbUrl: "/models/Bunker-optimized.glb",
+  },
+  {
+    id: "pc",
+    title: "Pneumatic Cylinder - Engineering CAD",
+    thumbSrc: "/models/PC.png",
+    glbUrl: "/models/PC.glb",
   },
 ];

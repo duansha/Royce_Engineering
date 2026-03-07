@@ -104,7 +104,7 @@ const photos = [
     alt: "Personal Projects - Robot",
   },
   {
-    title: "2022",
+    title: "2021",
     src: "2022summer_donut.2400x2562.png",
     alt: "Personal Projects - Donut",
   },
